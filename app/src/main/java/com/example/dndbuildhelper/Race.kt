@@ -15,5 +15,5 @@ abstract class Race
     open val sSize : String = ""
     open val sAbilities : String = ""
     open val sLanguages : String = ""
-    open val sWarning : String = ""
+    open val sSource : String = ""
 }
