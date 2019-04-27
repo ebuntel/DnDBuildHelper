@@ -33,7 +33,7 @@ abstract class Elf : Race()
     override val iDEXChange: Int = 2
 }
 
-data class ElfOfAerenal(override val iWISChange: Int = 1): Elf(){
+data class HighElfOfAerenal(override val iWISChange: Int = 1): Elf(){
     override val sAbilities: String = super.sAbilities + "Aereni Elf\n" +
             "An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for " +
             "any ability check you make that uses this chosen proficiency.\n" +
@@ -44,7 +44,7 @@ data class ElfOfAerenal(override val iWISChange: Int = 1): Elf(){
             "You can speak, read, and write one extra language of your choice."
 }
 
-data class ElfOfAerenalTwo(override val iWISChange: Int = 1): Elf()
+data class WoodElfOfAerenal(override val iWISChange: Int = 1): Elf()
 {
     override val sAbilities: String = super.sAbilities + "Aereni Elf\n" +
             "An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for any " +
